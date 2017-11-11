@@ -1,0 +1,51 @@
+
+body {
+  background-color: black;
+}
+form {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 15px;
+}
+
+form div.row {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+form label {
+  width: 30%;
+  text-align: end;
+  display: block;
+  float: left;
+  margin-right: 20px;
+}
+
+form input, form select, form textarea {
+  padding: 5px;
+  border-radius: 5px;
+  width: 200px;
+}
+
+form input[type="checkbox"] {
+  position: relative;
+  left: 30%;
+  width: auto;
+}
+
+form span {
+  position: relative;
+  left: 30%;
+}
+
+form input[type="submit"] {
+  width: 100px;
+  background-color: black;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+form div.row:last-of-type {
+  text-align: center;
+}
